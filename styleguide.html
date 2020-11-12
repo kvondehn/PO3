@@ -22,7 +22,6 @@
             <a href="#text_elements">Text Elements</a>
             <a href="#combined_elements">Combined Elements</a>
             <a href="product_listing.html">Product Listing Template</a>
-            <a href="checkout.html">Checkout Template</a>
             <a href="#citations">Citations</a>
           </nav>
     
@@ -34,44 +33,58 @@
     
     
           <section class="element">
-            <h3>In-text link</h3>
+            <p>
+              This will be the
+             <a  href="#" class="inTextLink"> In-text link </a>
+            </p>
           </section>
     
     
           <!-- Default Button styling section -->
           <section class="element">
     
-            <h3>Navigation Link</h3>
-    
-            <h4>CSS selector:</h4>
-            <p>.button-nav</p>
-    
             <h4>Sample code:</h4>
-            <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+            <code>&lt;a class="button-nav" href="#">DEFAULT BUTTON /a&gt;</code>
     
             <h4>Rendered element:</h4>
-            <a class="button-nav" href="#">Default Button</a>
+            <a class="button-nav" href="#">DEFAULT BUTTON</a>
     
           </section>
     
     
-          <section class="element">
-            <h3>Submit/Reset Buttons</h3>
-          </section>
-    
-    
-          <section class="element">
+          <section class="form-container">
             <h3>Text Input Field with Label</h3>
+            <form action="action_page.php">
+
+              <label for="fname">First Name</label>
+              <br>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <br>
+              <label for="lname">Last Name</label>
+              <br>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <br>
+              <label for="uremail"> Your Email </label>
+              <br>
+              <input type="email" id="uremail" name="email" placeholder="example@something.com">
+
+              <br>
+          
+              <label for="subject">Subject</label>
+              <br>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <br>
+              <input type="submit" value="SUBMIT">
+
+            </form>
+            
           </section>
-    
-    
-          <section class="element">
-            <h3>Radio Button with Label</h3>
-          </section>
-    
-    
-          <section class="element">
+  
+          <section class="photo-container">
             <h3>Image as a Link</h3>
+            <a href="instagram.com/kvdphotoarchive/"> 
+              <img src="images/bentobox.jpg" alt="bento box">
+            </a>
           </section>
     
     
@@ -84,46 +97,45 @@
         <section id="text_elements">
           <h2>Text Elements</h2>
     
-          <section class="element">
+          <section class="headings-container">
             <h3>Headings</h3>
+
+            <h1> Main Heading </h1>
+            <h2> Sub Heading </h2>
+            <h3> Sub Sub Heading </h3>
+            <h4> Sub Sub Sub Heading </h4>
           </section>
     
           <section class="element">
             <h3>Paragraphs</h3>
+
+            <p> 
+              Hi There!
+              <br>
+              <br>
+              Here's a little something about myself!
+              <br>
+              I was born in Northern Japan. Raised in the Great White North known as Canada and I also have European background. 
+              <br>
+              Traveled the world as a young boy and always aspired to be an artist like my mother.  
+              <br>
+              Traveling the world allowed me to see the world from so many different perspectives, which inspired me to start photography. 
+              <br>
+              <br>
+              I worked as a photographer for 1 year at a Digital Marketing Company doing mostly product photography, but as time grew I started to explore 
+              different styles such as portrait and landscape photography and even some wildlife photography. 
+              <br>
+              I try to be as flexible as possible so if you’re looking to collaborate with me, please don’t hesitate to contact me. 
+              <br>
+              <br>
+              Have a great day! 
+
+            </p>
           </section>
     
-          <section class="element">
-            <h3>Numbered Lists</h3>
-          </section>
     
         </section>
         <!-- // TEXT ELEMENTS SECTION -->
-    
-    
-    
-        <!-- COMBINED ELEMENTS SECTION // -->
-        <section id="combined_elements">
-          <h2>Combined Elements</h2>
-    
-          <section class="element">
-            <h3>Main Navigation</h3>
-          </section>
-    
-          <section class="element">
-            <h3>Product/Service Listing</h3>
-          </section>
-    
-          <section class="element">
-            <h3>Payment Form</h3>
-          </section>
-    
-          <section class="element">
-            <h3>Checkout Cart</h3>
-          </section>
-    
-        </section>
-        <!-- // COMBINED ELEMENTS SECTION -->
-    
     
     
         <section id="citations">

@@ -1,0 +1,143 @@
+h1, h2, h3, h4, p, a{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
+    padding-top: 1rem;
+}
+p {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1em;
+    line-height: 1.5em;
+    max-width: 40%;
+}
+
+/* navigation styling */
+.navigation {
+    width: 100%;
+    position: static;
+    align-items: center;
+    text-align: center;
+}
+
+.navigation > a {
+    display: inline-block;
+    padding: 2.5%;
+    font-size: 1em;
+}
+
+.navigation > a:hover {
+    font-weight: 300;
+    color: grey;
+}
+
+
+/* in text link styling */
+a.inTextLink {
+
+    font-weight: 600;
+}
+a.inTextLink:hover {
+    font-style: italic;
+}
+
+/* Button Styling */
+.button-nav {
+    font-family:'Raleway Light';
+    font-size: 0.85em;
+}
+a.button-nav {
+    background-color: #889696;
+    color: white;
+    padding: 0;
+    padding: 0.45rem;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    border: 1px solid black;
+    border-radius: 2px;
+    letter-spacing: .25rem;
+
+}
+
+a.button-nav:hover {
+    background-color:#E0E2DB;
+    color: black;
+}
+
+/* Form Styling */
+
+form {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+label {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+input, textarea, select {
+
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+    border-radius: 2px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: .50rem;
+    padding-bottom: .50rem;
+    
+}
+input:active, textarea {
+    border: rgb(237, 240, 255) solid 2px;
+}
+input[type=submit] {
+    width: 80%;
+    background-color:#889696 ;
+    color: white;
+    padding: 0;
+    padding: 0.45rem;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    border: 1px solid black;
+    border-radius: 2px;
+    letter-spacing: .25rem;
+
+}
+.form-container {
+    background-color: #E0E2DB;
+    border-radius: 5px;
+    margin-right: 50%;
+    text-align: center;
+}
+.photo-container {
+    max-width: 100%;
+}
+img {
+    width: 100%;
+    height: auto;
+    max-width: 50%;
+}
+.headings-container {
+    background-color:#E0E2DB ;
+    max-width: fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
