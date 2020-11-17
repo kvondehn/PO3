@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+
+}
+h4 {
+    font-size: 1.75rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.aboutimg {
+    max-width: 100%;
+}
+
+#aboutp {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.aboutcolumn {
+    padding-left: 5%;
+    padding-right:5%;
+}
+
+
+
+
+/* Desktop Responsiveness */
+@media screen and (min-width: 75em){
+h4 {
+    font-size: 2rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#aboutp {
+    line-height: 2.5rem;
+    max-width: 90%;
+
+    font-size: 1.25rem;
+}
+
+.aboutcolumn {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+    height: 100%;
+}
+
+
+.aboutrow {
+
+    display: flex;
+    display: -ms-flexbox;   
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap; 
+    width: 100%;
+}
+.aboutimg {
+    padding: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+}

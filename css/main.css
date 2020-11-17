@@ -65,9 +65,7 @@ body {
     font-size: 100%;
     background-color:#889696 ;
 }
-footer {
 
-}
 header {
     background-color: white;
 }
@@ -120,8 +118,7 @@ a {
     position: fixed;
     width: 100%;
     padding-bottom: .85rem;
-    mix-blend-mode: difference;
-    filter: invert(1);
+background-color: white;
 
 }
 #hamburger {
@@ -201,6 +198,7 @@ a {
         text-align: center;
     }
     .desktoplogo {
+        position: relative;
         width: 20rem;
         height: 8rem;
     }
