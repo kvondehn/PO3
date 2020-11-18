@@ -23,6 +23,14 @@ h4 {
 
 
 
+@media screen and (min-width: 35em) {
+
+#aboutp {
+    font-size: 1.65rem;
+    line-height: 1.75rem;
+}
+}
+
 
 /* Desktop Responsiveness */
 @media screen and (min-width: 75em){
