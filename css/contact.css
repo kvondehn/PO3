@@ -1,0 +1,72 @@
+/* Style inputs with type="text", select elements and textareas */
+body {
+    background-color: white;
+}
+h2{
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: 400;
+}
+p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.contactcontent{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: .75rem; /* Some padding */ 
+    border: 1px solid #E0E2DB; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: .5rem; /* Add a top margin */
+    margin-bottom: .5rem; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+  }
+  input, label {
+    font-family:'Raleway';
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #889696;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #889696;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #D2D4C8;
+    padding: 20px;
+    font-family: "Khula";
+  }
+
+  @media screen and (min-width: 75em)
+  {
+    .contact-body-container{
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+        height: 100%;
+
+    }
+  }

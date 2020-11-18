@@ -34,8 +34,8 @@ h4 {
 
 #aboutp {
     line-height: 2.5rem;
-    max-width: 90%;
-
+    width: 100%;
+    max-width: 50rem;
     font-size: 1.25rem;
 }
 

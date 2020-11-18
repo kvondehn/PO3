@@ -168,6 +168,7 @@ background-color: white;
       width: 100%;
       max-width: fit-content;
       border: none;
+      vertical-align: middle;
 
   }
 
@@ -243,7 +244,8 @@ background-color: white;
         display: none;
     }
     .menuitem {
-        padding-left: 6rem;
+        padding-left: 4rem;
+        font-size: 1.25rem;
     }
     .menuclose {
         display:block;
@@ -255,7 +257,9 @@ background-color: white;
         float: right;
         padding-right: 5%;
     }
-
+    .body-container {
+        width: 100%;
+    }
     .row {
         width: fit-content;
     }
@@ -265,21 +269,26 @@ background-color: white;
         flex: 33.3333%;
         max-width: 33.3333%;
         overflow: hidden;
-        height:80%;
     }
     .column2 {
         -ms-flex: 33.3333%;
         flex: 33.3333%;
         max-width: 33.3333%;
         overflow: hidden;
-        max-height: 80%;
+
+    }
+    #mike {
+        height:15.8%;
+    
+    }
+    #felix {
+        height: 18.25%;
     }
     .column3 {
         -ms-flex: 33.3333%;
         flex: 33.3333%;
         max-width: 33.3333%;
         overflow: hidden;
-        max-height: 80%;
 
     }
 
