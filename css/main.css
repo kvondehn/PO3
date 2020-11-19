@@ -70,10 +70,10 @@ header {
     background-color: white;
 }
 h1 {
-    font-family: 'Khula';
+    font-family: 'Raleway';
     font-size: 4rem;
-    font-weight: 300;
-    letter-spacing: .35rem;
+    font-weight: 200;
+    letter-spacing: .55rem;
 }
 h2 {
     font-size: 2rem;
@@ -81,17 +81,17 @@ h2 {
     letter-spacing: .25rem;
 }
 h3 {
-    font-family: 'Raleway';
+    font-family: 'Khula';
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 100;
 }
 p {
-    font-family: 'Raleway';
+    font-family: 'Khula';
     font-weight: 100;
     font-size: 1rem;
 }
 a {
-    font-family: 'Raleway';
+    font-family: 'Khula';
     text-decoration: none;
     color: black;
     color: #889696;
