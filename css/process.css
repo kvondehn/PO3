@@ -61,7 +61,8 @@ img
 
     p {
         font-size: 1.5rem;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 30%;
+        padding-right: 30%;
+        max-width: 100%;
     }
   }
