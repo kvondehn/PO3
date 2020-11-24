@@ -63,7 +63,7 @@ html {
 body {
    
     font-size: 100%;
-    background-color:#889696 ;
+    background-color:white ;
 }
 
 header {
@@ -105,20 +105,27 @@ a {
     height: 4rem;
     margin-left: auto;
     margin-right: auto;
+    z-index: 1;
 }
 .topmobilelogo {
     text-align: center;
     display: block;
+    z-index: 1;
     /* margin-top: 1rem; */
 }
 .topdesktoplogo {
     display: none;
+    z-index: 1;
+}
+.desktoplogo {
+    z-index: 1;
 }
 .navigation {
     position: fixed;
     width: 100%;
     padding-bottom: .85rem;
 background-color: white;
+z-index: 1;
 
 }
 #hamburger {

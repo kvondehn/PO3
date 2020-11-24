@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="scripts/navmanager.js"> </script>
     <script src="scripts/gallerymanager.js"></script>
+
 </head>
 
 <body>
@@ -41,34 +42,69 @@
         </div>
 
     </header>
-    <div id="button-container">
-        <button class="btn active" onclick="filterSelection('all')"> All Photos </button>
+    <div class="columns button-container">
+        <button class="btn active" onclick="filterSelection('all')"> All </button>
         <button class="btn" onclick="filterSelection('people')"> Portrait </button>
-        <button class="btn" onclick="filterSelection('pets')"> Pets </button>
+        <button class="btn" onclick="filterSelection('animals')"> Animals </button>
         <button class="btn" onclick="filterSelection('architecture')"> Architecture </button>
+        <button class="btn" onclick="filterSelection('random')"> Random </button>
     </div>
 
     <div class="images-container">
 
-        <div class="photos portrait ">
-            <img class="portrait" src="images/portrait/portrait (1).jpg">
-            <img class="portrait" src="images/portrait/portrait (4).jpg">
-            <img class="portrait" src="images/portrait/portrait (5).jpg">
-            <img class="portrait" src="images/landing/landing (3).jpg">
-            <img class="portrait" src="images/portrait/portrait (11).jpg">
-            <img class="portrait" src="images/portrait/portrait (16).jpg">
-            <img class="portrait" src="images/portrait/portrait (14).jpg">
-            <img class="portrait" src="images/portrait/portrait (13).jpg">
-            <img class="portrait" src="images/portrait/portrait (12).jpg">
-            <img class="portrait" src="images/portrait/portrait (15).jpg">
+        <div class="columns photos people">
+            <img class="myphotos" src="images/portrait/portrait (1).jpg">
+            <img class="myphotos" src="images/portrait/portrait (2).jpg">
+            <img class="myphotos" src="images/portrait/portrait (3).jpg">
+            <img class="myphotos" src="images/portrait/portrait (4).jpg">
+            <img class="myphotos" src="images/portrait/portrait (5).jpg">
+            <img class="myphotos" src="images/portrait/portrait (6).jpg">
+            <img class="myphotos" src="images/portrait/portrait (7).jpg">
+            <img class="myphotos" src="images/portrait/portrait (8).jpg">
+            <img class="myphotos" src="images/portrait/portrait (9).jpg">
+            <img class="myphotos" src="images/landing/landing (3).jpg">
         </div>
 
-        <div class="photos pet">
-            
+        <div class="columns photos animals">
+            <img class="myphotos" src="images/landing/landing (2).jpg">
+            <img class="myphotos" src="images/landing/landing (5).jpg">
+            <img class="myphotos" src="images/animals/animals (1).jpg">
+            <img class="myphotos" src="images/animals/animals (2).jpg">
+            <img class="myphotos" src="images/animals/animals (3).jpg">
+            <img class="myphotos" src="images/animals/animals (4).jpg">
+            <img class="myphotos" src="images/animals/animals (5).jpg">
+            <img class="myphotos" src="images/animals/animals (6).jpg">
+            <img class="myphotos" src="images/animals/animals (7).jpg">
+            <img class="myphotos" src="images/animals/animals (8).jpg">
         </div>
-        <div class="photos property">
-
+        <div class="columns photos architecture">
+            <img class="myphotos" src="images/architecture/architecture (1).jpg">
+            <img class="myphotos" src="images/architecture/architecture (2).jpg">
+            <img class="myphotos" src="images/architecture/architecture (3).jpg">
+            <img class="myphotos" src="images/architecture/architecture (4).jpg">
+            <img class="myphotos" src="images/architecture/architecture (5).jpg">
+            <img class="myphotos" src="images/architecture/architecture (6).jpg">
+            <img class="myphotos" src="images/architecture/architecture (7).jpg">
+            <img class="myphotos" src="images/architecture/architecture (8).jpg">
+        </div>
+        <div class="columns photos random">
+            <img class="myphotos" src="images/random/random (1).jpg">
+            <img class="myphotos" src="images/random/random (2).jpg">
+            <img class="myphotos" src="images/random/random (3).jpg">
+            <img class="myphotos" src="images/random/random (4).jpg">
+            <img class="myphotos" src="images/random/random (5).jpg">
+            <img class="myphotos" src="images/random/random (6).jpg">
+            <img class="myphotos" src="images/random/random (7).jpg">
+            <img class="myphotos" src="images/random/random (8).jpg">
+            <img class="myphotos" src="images/random/random (9).jpg">
+            <img class="myphotos" src="images/random/random (10).jpg">
+            <img class="myphotos" src="images/random/random (11).jpg">
+            <img class="myphotos" src="images/random/random (12).jpg">
+            <img class="myphotos" src="images/random/random (13).jpg">
+            <img class="myphotos" src="images/random/random (14).jpg">
         </div>
     </div>
+
+    <script> filterSelection("all") </script>
 </body>
 </html>
