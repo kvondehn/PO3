@@ -1,0 +1,47 @@
+
+body {
+    background-color: white;
+}
+
+.images-container:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.photos {
+    float: left;
+    width: 100%;
+    display: none;
+}
+.portrait {
+    max-width: fit-content;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+
+}
+.show {
+    display: block;
+}
+.button-container {
+    width: fit-content;
+}
+.btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    color: black;
+    background-color: #B8BDB5;
+    cursor: pointer;
+}
+.btn:hover {
+    color: white;
+    background-color:#889696;
+}
+.btn:active {
+    color: white;
+    background-color:#5F7470;
+}
