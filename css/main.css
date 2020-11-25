@@ -196,12 +196,14 @@ z-index: 1;
 /* Footer Styling */
   footer {
       text-align: center;
-      display: flex;
+      position: fixed;
+      display: block;
       padding-top: 1rem;
       padding-bottom: 1rem;
       background-color: white;
       width: 100%;
       z-index: 1;
+      bottom: 0;
       
   }
 
@@ -210,6 +212,9 @@ z-index: 1;
     height: auto;
     overflow: hidden;
 }
+.footer {
+    text-align: center;
+  }
 
   /* Media Query for Tablet */
 @media screen and (min-width: 35em) {
@@ -308,13 +313,7 @@ z-index: 1;
         overflow: hidden;
 
     }
-    #mike {
-        height:15.8%;
-    
-    }
-    #felix {
-        height: 18.25%;
-    }
+
     .column3 {
         -ms-flex: 33.3333%;
         flex: 33.3333%;
