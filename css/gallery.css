@@ -5,6 +5,9 @@ body {
 p > a {
     margin-top: 1rem;
 }
+.content-container {
+    padding-top: 4rem;
+}
 
 .images-container:after {
     content: "";
@@ -27,6 +30,7 @@ p > a {
     display: block;
 }
 .button-container {
+    /* padding-top: 4rem; */
     max-width: 100%;
     position: relative;
 
@@ -69,7 +73,8 @@ p > a {
         height: 100%;
         text-align: left;
         position: fixed;
-        top: 12rem;
+        top: 4rem;
+        padding-top: 4rem;
 
     }
     .images-container {
@@ -92,19 +97,24 @@ p > a {
       .btn {
           font-size: 2rem;
       }
-      .images-container {
-          padding-right: 5%;
-      }
-
+  
       .button-container {
-        -ms-flex:20%;
-        flex:20%;
-        max-width:20%;
+        -ms-flex:15%;
+        flex:15%;
+        max-width: 20%;
         overflow: hidden;
         float: left;
         height: 100%;
         text-align: left;
         position: fixed;
+        top: 8rem;
 
     }
+    .images-container {
+        padding-right: 5%;
+        -ms-flex:80%;
+        flex:80%;
+        max-width:80%;
+    }
+
   }

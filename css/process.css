@@ -5,7 +5,13 @@ body {
 h1{
     padding-top: 5%;
     padding-bottom:5%;
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.75rem;
+    width: 100%;
+    display: inline;
+    font-family: 'Raleway';
 }
 h4 {
     font-size: 0.85rem;
@@ -33,9 +39,13 @@ img
 
 @media screen and (min-width: 35em) {
     h1 {
-      padding-bottom: 0;
-      margin-top: 0;
+      padding-bottom: 1rem;
+      margin-top: 1rem;
       padding-top: 0;
+    }
+    h2 {
+        padding:2rem;
+        margin-top: 1rem;
     }
     h4 {
         font-size: 1rem;
@@ -43,14 +53,22 @@ img
     p {
         font-size: 1.25rem;
     }
+    .content-container {
+        padding-top: 8rem;
+        position: absolute;
+    }
+
   }
 
 
 
   @media screen and (min-width: 75em){
-    
+    .content-container {
+        padding-top: 12rem;
+    }
     h1 {
           font-size: 3rem;
+          padding: 0rem;
     }
     h2 {
         font-size: 2.5rem;

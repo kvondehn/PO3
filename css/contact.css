@@ -23,10 +23,15 @@ p {
     font-size: 1.25rem;
     font-weight: 300;
 }
+.content-container {
+  padding-top: 4rem;
+
+}
 .contact-row {
     padding-left: 5%;
     padding-right: 5%;
 }
+
 
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -74,6 +79,9 @@ input[type=text], select, textarea {
       padding-bottom: 0;
       margin-top: 5%;
     }
+    .content-container {
+      padding-top: 6rem;
+    }
 
     
   }
@@ -82,6 +90,9 @@ input[type=text], select, textarea {
 
   @media screen and (min-width: 75em)
   {
+    .content-container {
+      padding-top: 12rem;
+    }
     .contact-bodycolumn{
         -ms-flex: 50%;
         flex: 50%;
