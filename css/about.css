@@ -67,6 +67,7 @@ h4 {
 .aboutimg {
     padding: 5%;
     padding-right: 5%;
+    padding-left: 0;
     width: 100%;
 }
 }
