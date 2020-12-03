@@ -30,7 +30,7 @@ p > a {
     display: block;
 }
 .button-container {
-    /* padding-top: 4rem; */
+    padding-top: 1rem;
     max-width: 100%;
     position: relative;
 

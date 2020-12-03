@@ -70,7 +70,7 @@ header {
     background-color: white;
         position: fixed;
         width: 100%;
-        height: fit-content;
+        height: 5rem;
         z-index: 2;
 }
 h1 {
@@ -92,13 +92,17 @@ h3 {
 p {
     font-family: 'Khula';
     font-weight: 100;
-    font-size: 1rem;
+    font-size: 1.35rem;
+    line-height: 1.4rem;
 }
 a {
     font-family: 'Khula';
     text-decoration: none;
     color: black;
     color: #889696;
+}
+a:hover {
+    color: black;
 }
 
 
@@ -211,6 +215,19 @@ z-index: 1;
     width: fit-content;
     height: auto;
     overflow: hidden;
+    
+}
+.link-container {
+    font-size: 1.75rem;
+    align-items: center;
+    padding: 1.5rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5F7470;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
 }
 .footer {
     text-align: center;
@@ -220,6 +237,7 @@ z-index: 1;
 @media screen and (min-width: 35em) {
   header {
     padding-bottom: 2rem;
+    height: 8rem;
   }
     .topmobilelogo {
         display: none;
@@ -247,6 +265,7 @@ z-index: 1;
     }
     p {
         font-size: 2em;
+        line-height: 2rem;
     }
   
 
@@ -257,9 +276,11 @@ z-index: 1;
 
     header {
         padding-bottom: 0;
+        height: 10rem;
     }
     .content-container {
         padding-top: 12rem;
+        width: 100%;
     }
     .topdesktoplogo {
        display: inline-block;
