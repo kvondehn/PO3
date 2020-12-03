@@ -20,7 +20,7 @@ p {
     text-align: center;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    font-size: 1em;
+    font-size: 1.75rem;
     line-height: 1.5em;
     padding-left: 20%;
     padding-right: 20%;
@@ -45,10 +45,7 @@ header {
     font-size: 1em;
 }
 
-.navigation > a:hover {
-    font-weight: 300;
-    color: grey;
-}
+
 
 
 /* in text link styling */
@@ -57,7 +54,7 @@ a.inTextLink {
     font-weight: 600;
 }
 a.inTextLink:hover {
-    font-style: italic;
+    color: black;
 }
 
 /* Button Styling */
